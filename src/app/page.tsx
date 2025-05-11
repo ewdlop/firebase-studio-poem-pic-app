@@ -1,3 +1,9 @@
+import PoemPicPage from '@/components/poem-pic-page';
+
 export default function Home() {
-  return <></>;
+  return (
+    <main>
+      <PoemPicPage />
+    </main>
+  );
 }
